@@ -298,13 +298,13 @@ video {
 }
 
 .preloader {
-  background: -moz-linear-gradient(top, #858E96 0%, #60696B 100%);
+  background: -moz-linear-gradient(top, #000000 0%, #00418C 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #858E96 0%, #60696B 100%);
+  background: -webkit-linear-gradient(top, #000000 0%, #00418C 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #858E96 0%, #60696B 100%);
+  background: linear-gradient(to bottom, #000000 0%, #00418C 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#858E96', endColorstr='#60696B', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#00418C', GradientType=0);
   /* IE6-9 */
   height: 100%;
   left: 0;
