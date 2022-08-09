@@ -10,6 +10,7 @@ class SlideR extends HTMLElement {
         var desc = this.attributes.desc.value
 
         this.innerHTML = `
+        <div class="section-inner">
             <div class="row justify-content-center">
                 <div class="col-lg-8 wide-col-laptop">
                     <div class="row">
@@ -30,6 +31,7 @@ class SlideR extends HTMLElement {
                     </div>
                 </div>
             </div>
+        </div>
     `;
     }
 }
@@ -48,6 +50,7 @@ class SlideL extends HTMLElement {
         var desc = this.attributes.desc.value
 
         this.innerHTML = `
+        <div class="section-inner">
             <div class="row justify-content-center">
                 <div class="col-lg-8 wide-col-laptop">
                     <div class="row">
@@ -69,6 +72,7 @@ class SlideL extends HTMLElement {
                     </div>
                 </div>
             </div>
+        </div>
     `;
     }
 }
