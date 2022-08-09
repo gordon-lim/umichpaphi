@@ -57,7 +57,7 @@
                 navigationPosition: 'right',
                 scrollOverflow: true,
                 responsiveWidth: 768,
-                responsiveHeight: 880,
+                responsiveHeight: 800,
                 responsiveSlides: true
             });
         }
