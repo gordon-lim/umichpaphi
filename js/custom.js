@@ -46,112 +46,7 @@
                 });
             });
         });
-        if ($('.facts-list').length) {
-            $('.facts-list').owlCarousel({
-                loop: true,
-                nav: false,
-                dots: true,
-                items: 3,
-                margin: 30,
-                autoplay: false,
-                smartSpeed: 700,
-                autoplayTimeout: 6000,
-                responsive: {
-                    0: {
-                        items: 1,
-                        margin: 0
-                    },
-                    460: {
-                        items: 1,
-                        margin: 0
-                    },
-                    576: {
-                        items: 2,
-                        margin: 20
-                    },
-                    992: {
-                        items: 3,
-                        margin: 30
-                    }
-                }
-            });
-        }
-        if ($('.services-list').length) {
-            $('.services-list').owlCarousel({
-                loop: true,
-                nav: false,
-                dots: true,
-                items: 3,
-                margin: 30,
-                autoplay: false,
-                smartSpeed: 700,
-                autoplayTimeout: 6000,
-                responsive: {
-                    0: {
-                        items: 1,
-                        margin: 0
-                    },
-                    460: {
-                        items: 1,
-                        margin: 0
-                    },
-                    576: {
-                        items: 2,
-                        margin: 20
-                    },
-                    992: {
-                        items: 3,
-                        margin: 30
-                    }
-                }
-            });
-        }
-        if ($('.gallery-list').length) {
-            $('.gallery-list').owlCarousel({
-                loop: false,
-                nav: false,
-                dots: true,
-                items: 3,
-                autoplay: true,
-                smartSpeed: 700,
-                autoplayTimeout: 4000,
-                responsive: {
-                    0: {
-                        items: 1,
-                        margin: 0
-                    },
-                    576: {
-                        items: 2,
-                        margin: 20
-                    },
-                    992: {
-                        items: 3,
-                        margin: 30
-                    }
-                }
-            });
-        }
-        if ($('.testimonials-slider').length) {
-            $('.testimonials-slider').owlCarousel({
-                loop: true,
-                nav: false,
-                dots: true,
-                items: 1,
-                margin: 30,
-                autoplay: true,
-                smartSpeed: 700,
-                autoplayTimeout: 6000,
-                responsive: {
-                    0: {
-                        items: 1,
-                        margin: 0
-                    },
-                    768: {
-                        items: 1
-                    }
-                }
-            });
-        }
+
         if ($('.fullpage-default').length) {
             var myFullpage = new fullpage('.fullpage-default', {
                 licenseKey: ' C7F41B00-5E824594-9A5EFB99-B556A3D5',
@@ -162,7 +57,7 @@
                 navigationPosition: 'right',
                 scrollOverflow: true,
                 responsiveWidth: 768,
-                responsiveHeight: 600,
+                responsiveHeight: 880,
                 responsiveSlides: true
             });
         }
