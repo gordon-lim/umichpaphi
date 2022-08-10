@@ -228,7 +228,8 @@ video {
 }
 
 .fp-scrollable {
-  height: calc(100vh - 200px) !important;
+  padding-top: 100px;
+  height: calc(100vh) !important;
 }
 
 #fp-nav ul li a span {
