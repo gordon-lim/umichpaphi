@@ -102,7 +102,7 @@ class Brothers extends HTMLElement {
         this.innerHTML = `
         <div class="section-inner">
             <div class="row justify-content-center">
-                <div class="col-md-6 wide-col-laptop">
+                <div class="col-md-6">
                     <div class="row">
                         <div class="col-sm-4">
                             <h2 class="font_2"
@@ -139,7 +139,7 @@ class Brothers extends HTMLElement {
                 </div>
             </div>
                         <div class="row justify-content-center">
-                <div class="col-md-6 wide-col-laptop">
+                <div class="col-md-6">
                                            <div class="row">
     <div class="col-sm-4">
     <h2 class="font_2"
